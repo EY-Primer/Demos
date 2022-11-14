@@ -24,6 +24,12 @@ public class Driver {
         System.out.println(dodge); //the toString was implement in the Car abstract class
         //notice it says Car not Dodge
 
+
+        //Where does abstraction fit in here?
+        //we are calling all of these method without needing to know how they were implemented (coded)
+        //someone who has never seen this codebase can assume what drive() and honk() do
+        //like driving a car - you know the gas pedal makes the car go, but not necessarily HOW.
+
     }
 
 }
